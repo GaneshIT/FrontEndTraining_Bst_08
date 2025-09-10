@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Drawing a Line on the Canvas</title>
+<style>
+	canvas {
+		border: 2px solid #000;
+	}
+</style>
+<script>
+    // window.onload = function() {
+    //     var canvas = document.getElementById("myCanvas");
+    //     var context = canvas.getContext("2d");
+    //     context.moveTo(0, 0);
+    //     context.lineTo(50, 100);
+    //     context.stroke();
+    // };
+    // window.onload = function() {
+    //     var canvas = document.getElementById("myCanvas1");
+    //     var context = canvas.getContext("2d");
+    //     context.rect(50, 50, 500, 500); 
+    //     context.stroke();
+    // };
+</script>
+</head>
+<body>
+    <!-- <canvas id="myCanvas" width="300" height="200"></canvas> -->
+    <!-- <canvas id="myCanvas1" width="300" height="200"></canvas> -->
+
+    <svg width="300" height="200">
+    <line x1="50" y1="50" x2="250" y2="150" style="stroke:red; stroke-width:3;" />
+    </svg>
+
+    <svg width="300" height="200">
+    <rect x="50" y="50" width="200" height="100" style="fill:#fff; stroke:black; stroke-width:3;" />
+    </svg>
+
+    <svg width="300" height="200">
+    <circle cx="50" cy="50" r="50" style="fill:rgb(65, 57, 215); stroke:black; stroke-width:3;" />
+    </svg>
+
+
+    <audio controls="controls" src="media/birds.mp3">
+    Your browser does not support the HTML5 Audio element.
+    </audio>
+
+    <video controls="controls">
+    <source src="media/shuttle.mp4" type="video/mp4">
+    <source src="media/shuttle.ogv" type="video/ogg">
+    Your browser does not support the HTML5 Video element.
+    </video>
+</body>
+</html>

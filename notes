@@ -1,0 +1,107 @@
+HTML - > To create static web page
+Tags - Html4 and html5 tags
+Version - 5
+
+
+
+Container Tags:
+<div> - Division
+
+
+UI Layout Design
+
+
+https://www.programiz.com/
+
+https://www.tutorialrepublic.com/html-tutorial/
+
+
+Html 5
+List Tags: 
+Html controls: 
+
+https://novoresume.com/
+
+How to create Menubar?
+
+->List tags
+
+Ordered List -> start with serial number
+-><ol>
+    <li>Item 1</li>
+    <li>Item 1</li>
+  </ol>
+Unordered List ->start with special character (*)
+-><ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+
+
+  CSS-> To apply style over web page and control html web page alignment
+
+  3 types of css
+
+  1. inline css -> apply css specific element or tag
+  2. internal css ->apply css only inside the html document 
+  3. external css ->apply css in all the html pages - recommended
+
+css Rules:
+1.      dot (.) -> class
+2.      # -> tag id or element id or control id
+3.      tagname ->html tags or user definied tags(example- <div></div>)
+   
+
+css property syntax:
+
+propertyname:propertyvalue;
+
+Example: height:300px;
+
+
+Cookies: can store data in the client(4kb)
+
+
+Web storage: in-memory
+
+1. sessionStorage  -can store upto 5MB
+   ->it stores the data in single window/browser tab
+   ->it will be destroyed automatically once browser window or tab closed
+   ->cannot access the session data in all the browsers
+Example: sessionStorage.setItem('key','value'); //store data
+         sessionStorage.getItem('key'); //access data
+2. localStorage -can store upto 5MB
+   ->it stores the data in single browser window/browser tabs
+   ->it keeps the data even browser window or tab closed
+   ->localStorage data can be accessed after close the browser
+   ->cannot access the localStorage data in all the browsers
+Example: localStorage.setItem('key','value'); //store data
+         localStorage.getItem('key'); //access data
+
+
+Javascript: client side before node js.. 
+
+
+Node js: netflix, linkedin messenger
+
+Javascript:
+1. Javascript datatypes
+2. javascript functions
+3. arrays
+4. array methods
+   ->push(), pop()  -->STACK(LIFO)
+   ->shift(), unshift() -->Queue(FIFO)
+   ->slice(), splice()
+   ->filter(), map()
+   ->some(), find()
+   ->reduce(),concat()
+5. callback functions
+6. async/await
+7. promise
+8. call(), apply(), bind()
+9. closures()
+10. hoisting
+
+
+
