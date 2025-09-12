@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div>
+            <div>
+                <h1>Movie Entry</h1>
+                <hr />
+                <form>
+                    <label>Movie Name</label>
+                    <input type="text" id="txtmname" value="" /><br />
+                    <label>Movie Desc</label>
+                    <input type="text" id="txtmdesc" /><br />
+                    <label>Movie Type</label>
+                    <select id="ddltype"><option>Select</option>
+                        <option>Action</option>
+                        <option>Comedy</option>
+                        <option>Drama</option>
+                        <option>Horror</option>
+                    </select> <br/>
+                    <label>Movie Language</label>
+                    <input type="radio" id="rbtntamil" value="Tamil" onclick="checkLanguage('Tamil')" />Tamil
+                    <input type="radio" id="rbtnenglish" value="English" onclick="checkLanguage('English')" />English
+                    <input type="radio" id="rbtnkannada" value="Kannada" onclick="checkLanguage('Kannada')" />Kannada<br />
+                    <input type="button" id="btnsave" onclick="validateMovieForm()" value="Save" />
+                    <input type="button" id="btnupdate" value="Reset" />
+                </form>
+                <hr />
+                <h3 id="message"></h3>
+            </div>
+        </div>
+
+        <script src="../js/movie.js"></script>
+    </body>
+</html>
