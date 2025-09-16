@@ -90,7 +90,7 @@ Javascript:
 2. javascript functions
 3. arrays
 4. array methods
-   ->push(), pop()  -->STACK(LIFO)
+   ->push(item), pop()  -->STACK(LIFO)
    ->shift(), unshift() -->Queue(FIFO)
    ->slice(), splice()
    ->filter(), map()

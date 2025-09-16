@@ -3,7 +3,7 @@
     <head></head>
     <body>
         <div>
-            <div>
+            <div style="float: left;">
                 <h1>Movie Entry</h1>
                 <hr />
                 <form>
@@ -12,21 +12,37 @@
                     <label>Movie Desc</label>
                     <input type="text" id="txtmdesc" /><br />
                     <label>Movie Type</label>
-                    <select id="ddltype"><option>Select</option>
-                        <option>Action</option>
-                        <option>Comedy</option>
-                        <option>Drama</option>
-                        <option>Horror</option>
+                    <select id="ddltype">
                     </select> <br/>
+                    <div id="show"></div>
                     <label>Movie Language</label>
                     <input type="radio" id="rbtntamil" value="Tamil" onclick="checkLanguage('Tamil')" />Tamil
                     <input type="radio" id="rbtnenglish" value="English" onclick="checkLanguage('English')" />English
                     <input type="radio" id="rbtnkannada" value="Kannada" onclick="checkLanguage('Kannada')" />Kannada<br />
-                    <input type="button" id="btnsave" onclick="validateMovieForm()" value="Save" />
-                    <input type="button" id="btnupdate" value="Reset" />
+                    <input type="button" id="btnsave" onclick="addMovie()" value="Save" />
+                    <input type="button" id="btnupdate"  value="Update" style="display: none;" />
+                    <input type="button" id="btnreset" value="Reset" />
                 </form>
                 <hr />
                 <h3 id="message"></h3>
+            </div>
+            <div style="float: right;">
+                <h1>Movie List</h1>
+                <hr />
+                <table border="2px">
+                    <thead>
+                        <tr>
+                            <th>Movie Name</th>
+                            <th>Movie Desc</th>
+                            <th>Movie Type</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="movietable">
+                        
+                    </tbody>
+                </table>
             </div>
         </div>
 
